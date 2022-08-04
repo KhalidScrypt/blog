@@ -130,7 +130,7 @@ const CustomNavbar = () => {
                 </div>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-3">
-                        <Nav.Item
+                        {/* <Nav.Item
                             role="button"
                             className="dropdown-toggle nav-link nav-link__features-dropdown d-none d-md-block"
                             onClick={() => setVisible(!visible)}
@@ -148,7 +148,7 @@ const CustomNavbar = () => {
                                     {feature.name}
                                 </a>
                             ))}
-                        </NavDropdown>
+                        </NavDropdown> */}
                         <Nav.Link
                             href="https://flotiq.com/solutions"
                             onClick={() => { setIsOpen(false); setVisible(false); }}

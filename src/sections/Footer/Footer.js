@@ -45,13 +45,9 @@ const Footer = () => {
                         {' '}
                         {year}
                         {' '}
-                        Flotiq
+                        Tiramisu
                     </div>
-                    <div className="main-footer-subfooter--opacity">
-                        <a href="https://flotiq.com/privacy-policy/" className="text-s">Privacy Policy</a>
-                        <a href="https://flotiq.com/terms-of-service/" className="text-s">Terms of Service</a>
-                        <a href="https://flotiq.com/cookie-policy/" className="text-s">Cookie Policy</a>
-                    </div>
+                    
                     <FooterSocials data={data.allFlotiqMainSettings.nodes[0]} />
                 </div>
                 

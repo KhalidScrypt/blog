@@ -21,12 +21,12 @@ const IndexPage = ({ data, pageContext }) => {
             <Helmet>
                 <html lang="en" />
                 <title>
-                    Flotiq - API first headless CMS | Blog for developers and content editors
+                    Tiramisu - Social Network of Kindness
                 </title>
                 <meta
                     name="description"
-                    content={'The Flotiq\'s blog helps developers and content editors to simplify workflow and create '
-                        + `effortless experience${pageContext.currentPage > 1
+                    content={'Tiramisu\'s blog share content and news about the company, wellbeing and social impact '
+                        + `${pageContext.currentPage > 1
                             ? ` - Page ${pageContext.currentPage}` : ''}`}
                 />
                 {pageContext.currentPage > 1 && (
@@ -45,7 +45,7 @@ const IndexPage = ({ data, pageContext }) => {
                 <meta property="og:type" content="website" />
                 <meta
                     property="og:title"
-                    content="Flotiq - API first headless CMS | Blog for developers and content editors"
+                    content="Tiramisu - Social Network of Kindness"
                 />
                 <meta property="og:url" content={url} />
                 {data.allFlotiqMainSettings.nodes[0].facebook_url && (
@@ -55,7 +55,7 @@ const IndexPage = ({ data, pageContext }) => {
                 <meta name="twitter:card" content="summary" />
                 <meta
                     name="twitter:title"
-                    content="Flotiq - API first headless CMS | Blog for developers and content editors"
+                    content="Tiramisu - Social Network of Kindness"
                 />
                 <meta name="twitter:url" content={url} />
                 {data.allFlotiqMainSettings.nodes[0].twitter_url

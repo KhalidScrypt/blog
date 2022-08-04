@@ -15,7 +15,7 @@ const FooterColumns = ({ data }) => (
                     <strong>
                         Download
                         <br />
-                        Flotiq App
+                        Tiramisu App
                     </strong>
                 </li>
                 <li>

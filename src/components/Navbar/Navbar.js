@@ -2,8 +2,8 @@ import { graphql, useStaticQuery } from 'gatsby';
 import React, { useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
-import Logo from '../../assets/Logo3.svg';
-import Logo2 from '../../assets/Logo4.svg';
+import Logo from '../../assets/Logo.png';
+import Logo2 from '../../assets/Logo.png';
 import Search from '../../assets/search.svg';
 import Button from '../Button/Button';
 

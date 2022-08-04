@@ -7,7 +7,6 @@ import JoinNewsletter from '../components/JoinNewsletter/JoinNewsletter';
 import Pagination from '../components/Pagination/Pagination';
 import PostCard from '../components/PostCard/PostCard';
 import Layout from '../layouts/layout';
-import FlotiqPlatform from '../sections/FlotiqPlatform/FlotiqPlatform';
 
 const IndexPage = ({ data, pageContext }) => {
     const posts = data.allFlotiqBlogPost.nodes;
@@ -113,7 +112,6 @@ const IndexPage = ({ data, pageContext }) => {
                 )}
                 <Pagination page={pageContext.currentPage} numOfPages={pageContext.numPages} />
             </Container>
-            <FlotiqPlatform />
         </Layout>
     );
 };

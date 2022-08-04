@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 import Logo from '../../assets/logo.png';
-import Logo2 from '../../assets/logo.png';
+import Logo2 from '../../assets/logo2.png';
 import Search from '../../assets/search.svg';
 import Button from '../Button/Button';
 

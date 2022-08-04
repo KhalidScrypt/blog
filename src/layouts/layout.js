@@ -3,7 +3,6 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import CookieInfo from '../components/CookieInfo/CookieInfo';
-import MadeWithFlotiq from '../components/MadeWithFlotiq/MadeWithFlotiq';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../sections/Footer/Footer';
 
@@ -20,7 +19,6 @@ const Layout = ({ children, navbarSettings = {}, mainSettings = {} }) => {
             </Helmet>
             <Navbar {...navbarSettings} />
             {children}
-            <MadeWithFlotiq />
             <Footer />
             <CookieInfo cookieText={data.allFlotiqMainSettings.nodes[0].cookie_policy_popup_text} />
         </main>

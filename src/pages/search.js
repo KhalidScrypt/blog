@@ -6,7 +6,6 @@ import { Helmet } from 'react-helmet';
 
 import CookieInfo from '../components/CookieInfo/CookieInfo';
 import DiscoverMoreTopics from '../components/DiscoverMoreTopics/DiscoverMoreTopics';
-import MadeWithFlotiq from '../components/MadeWithFlotiq/MadeWithFlotiq';
 import Navbar from '../components/Navbar/Navbar';
 import PostCard from '../components/PostCard/PostCard';
 import Footer from '../sections/Footer/Footer';
@@ -84,7 +83,6 @@ const SearchPage = ({ location }) => {
             </Container>
             <Footer />
             <CookieInfo cookieText={siteMeta.allFlotiqMainSettings.nodes[0].cookie_policy_popup_text} />
-            <MadeWithFlotiq />
         </main>
     );
 };

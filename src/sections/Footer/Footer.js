@@ -2,9 +2,8 @@ import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
 import appstore from '../../assets/appstore.svg';
-import FooterBottomImage from '../../assets/footer-bottom-image.jpg';
 import gplay from '../../assets/gplay.svg';
-import Logo from '../../assets/Logo5.svg';
+import Logo from '../../assets/logo.png';
 import FooterAccordion from './FooterAccordion/FooterAccordion';
 import FooterColumns from './FooterColumns/FooterColumns';
 import FooterSocials from './FooterSocials/FooterSocials';

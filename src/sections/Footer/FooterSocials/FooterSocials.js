@@ -2,22 +2,7 @@ import React from 'react';
 
 const FooterSocials = ({ data }) => (
     <div className="footer-socials">
-        <a
-            target="_blank"
-            href={data.github_url}
-            className="social-button github"
-            rel="noreferrer"
-        >
-            <em />
-        </a>
-        <a
-            target="_blank"
-            href={data.discord_url}
-            className="social-button discord"
-            rel="noreferrer"
-        >
-            <em />
-        </a>
+        
         <a
             target="_blank"
             href={data.youtube_url}
@@ -50,14 +35,7 @@ const FooterSocials = ({ data }) => (
         >
             <em />
         </a>
-        <a
-            target="_blank"
-            href={data.reddit_url}
-            className="social-button reddit"
-            rel="noreferrer"
-        >
-            <em />
-        </a>
+        
     </div>
 );
 

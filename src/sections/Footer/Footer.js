@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className="d-xs-block d-sm-block d-md-none d-lg-none">
                     <div className="main-footer-header">
                         <div className="main-footer-header-logo"><img src={Logo} alt="" /></div>
-                        <p><strong>Download Flotiq App</strong></p>
+                        <p><strong>Download Tiramisu App</strong></p>
                         <div>
                             <a
                                 target="_blank"
@@ -54,15 +54,7 @@ const Footer = () => {
                     </div>
                     <FooterSocials data={data.allFlotiqMainSettings.nodes[0]} />
                 </div>
-                <div className="main-footer-ue mt-3 mb-3">
-                    <img
-                        src={FooterBottomImage}
-                        alt="European Funds Smart Growth,
-                           Republic of Poland,
-                           Polish Investment & Trade Agency PFR Group,
-                           European Union European Regional Development Fund"
-                    />
-                </div>
+                
             </div>
         </footer>
     );

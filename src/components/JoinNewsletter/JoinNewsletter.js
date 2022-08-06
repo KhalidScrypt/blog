@@ -24,7 +24,8 @@ const JoinNewsletter = ({ addMargin = false }) => {
                 (isBrowser() && cookies && !cookies[COOKIE_KEY2]) ? (
                     <Container className={addMargin ? 'pt-5 pb-5 mb-5' : ''}>
                         <div id="mc_embed_signup">
-                            <form
+                        <iframe width="540" height="305" src="https://6e38f91b.sibforms.com/serve/MUIEANB89vq5JEup-gOVpJoFn69FLtSHAqTL-x1KwGA10yvGxPrSz6GNEOgLbf3z4Bxe_9Q-6PtMBwMkAOrcM_mGEfF9cK3wNxveCNlY_0jWrqyxm43B7DcOypX2Njp1XAnampxVY3OqJ8SrlbMydPgH4tb9FpGmqc4XdcgKCOMwm7LRBOJqcOU5LJwu9WAp-9NyvwtWyVpeqY8Q" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+                            {/* <form
                                 action={action}
                                 method="post"
                                 id="mc-embedded-subscribe-form"
@@ -83,7 +84,7 @@ const JoinNewsletter = ({ addMargin = false }) => {
                                         />
                                     </button>
                                 </div>
-                            </form>
+                            </form> */}
                         </div>
                     </Container>
                 ) : null

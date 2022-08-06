@@ -122,7 +122,7 @@ const PostPage = ({ data, pageContext }) => {
                     style={{ opacity: visible ? 1 : 0, height: `${progressHeight}px` }}
                 >
                     <div className="post-reading-content">
-                        <Link to="/"><img src={Sygnet} alt="Flotiq" /></Link>
+                        <Link to="/"><img src={Sygnet} alt="Tiramisu"/></Link>
                         <div>
                             <p><strong>{post.title}</strong></p>
                             <span className="reading-time">{getReadingTime(post.content.blocks)}</span>

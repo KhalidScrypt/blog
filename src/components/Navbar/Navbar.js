@@ -150,51 +150,24 @@ const CustomNavbar = () => {
                             ))}
                         </NavDropdown> */}
                         <Nav.Link
-                            href="https://flotiq.com/solutions"
+                            href="https://www.tiramisuapp.com"
                             onClick={() => { setIsOpen(false); setVisible(false); }}
                         >
-                            Solutions
+                            Home
                         </Nav.Link>
                         <Nav.Link
-                            href="https://flotiq.com/pricing"
+                            href="https://www.tiramisuapp.com/blog"
                             onClick={() => { setIsOpen(false); setVisible(false); }}
                         >
-                            Pricing
+                            Blog
                         </Nav.Link>
-                        <NavDropdown title="Resources" id="basic-nav-dropdown" onClick={() => setVisible(false)}>
-                            <a
-                                href="https://flotiq.com/"
-                                className="dropdown-item"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                Main page
-                            </a>
-                            <a
-                                href="https://flotiq.com/docs/"
-                                className="dropdown-item"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                Docs
-                            </a>
-                            <a
-                                href="https://flotiq.com/docs/faq/"
-                                className="dropdown-item"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                FAQ
-                            </a>
-                            <a
-                                href="https://flotiq.productlift.dev"
-                                className="dropdown-item"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                Roadmap
-                            </a>
-                        </NavDropdown>
+                        <Nav.Link
+                            href="https://www.tiramisuapp.com/events"
+                            onClick={() => { setIsOpen(false); setVisible(false); }}
+                        >
+                            Events
+                        </Nav.Link>
+                        
                     </Nav>
                     <Nav className="d-none d-md-flex d-lg-flex">
                         <Nav.Item>

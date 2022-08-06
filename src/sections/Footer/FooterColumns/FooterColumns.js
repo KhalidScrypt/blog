@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 
 import appstore from '../../../assets/appstore.svg';
 import gplay from '../../../assets/gplay.svg';
-import Logo from '../../../assets/Logo5.svg';
+import Logo from '../../../assets/logo.png';
 import SubscriptionForm from '../SubscriptionForm/SubscriptionForm';
 
 const FooterColumns = ({ data }) => (

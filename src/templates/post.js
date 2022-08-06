@@ -8,7 +8,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
-import Sygnet from '../assets/sygnet.svg';
+import Sygnet from '../assets/logo.png';
 import DiscoverMoreTopics from '../components/DiscoverMoreTopics/DiscoverMoreTopics';
 import JoinNewsletter from '../components/JoinNewsletter/JoinNewsletter';
 import PostCard from '../components/PostCard/PostCard';
@@ -190,10 +190,10 @@ const PostPage = ({ data, pageContext }) => {
                                 <SharePostButtons />
                             </div>
                         </div>
-                        <div className="my-5 pb-5">
+                        {/* <div className="my-5 pb-5">
                             <CommentCount config={disqusConfig} placeholder="..." />
                             <Disqus config={disqusConfig} />
-                        </div>
+                        </div> */}
                     </Col>
                     <Col lg={1} md={1} sm={0} xs={0} />
                 </Row>

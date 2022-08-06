@@ -170,7 +170,7 @@ const CustomNavbar = () => {
                         
                     </Nav>
                     <Nav className="d-none d-md-flex d-lg-flex">
-                        <Nav.Item>
+                        {/* <Nav.Item>
                             <form
                                 action={`${data.site.siteMetadata.pathPrefix}/search/`}
                                 className={`search ${searchOpen ? 'open' : ''}`}
@@ -188,21 +188,21 @@ const CustomNavbar = () => {
                                     <img src={Search} alt="search" />
                                 </Button>
                             </form>
-                        </Nav.Item>
-                        <Button click={() => window.open('https://editor.flotiq.com/register.html')}>
+                        </Nav.Item> */}
+                        <Button click={() => window.open('https://www.tiramisuapp.com/download')}>
                             <Nav.Item>
-                                Go to Flotiq
+                                Get the app
                             </Nav.Item>
                         </Button>
                     </Nav>
                     <div className="d-md-none d-lg-none bottom-mobile-nav">
                         <div>
                             <Button
-                                click={() => window.open('https://editor.flotiq.com/register.html')}
+                                click={() => window.open('https://www.tiramisuapp.com/download')}
                                 additionalClasses={['btn-mobile-big']}
                             >
                                 <Nav.Item>
-                                    Go to Flotiq
+                                Get the app
                                 </Nav.Item>
                             </Button>
                         </div>

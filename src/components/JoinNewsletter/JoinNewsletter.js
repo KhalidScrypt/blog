@@ -17,7 +17,7 @@ const JoinNewsletter = ({ addMargin = false }) => {
     const dismiss = () => {
         setCookie(COOKIE_KEY2, 1, { expires: nextWeek() });
     };
-    const action = "https://formsubmit.co/khalid@tiramisuapp.com";
+    const action = "https://6e38f91b.sibforms.com/serve/MUIEAPUTMzpahL8TaOhaghyQ4TcNWPWP8TIy85dA6ogeGPlgaJl1h3gJbTQCn4FaBzETUFwPwmg93q-T93s5MKU-Sz4aXSeFldNWepeiVMGnMttaFDCCOTiMMJb-Q5si1JdouMqpa1vKBrFNG9B-mMQtAaP1KJTg0D6t6QXltWHHNlgUC_bEubWJma-budws8d-roVsfaNvTx7h1";
     //'https://flotiq.us18.list-manage.com/subscribe/post?u=5f7db102d539d8f65a3639f8d&amp;id=da58181767';
     return (
         <Row className="w-100">
@@ -52,8 +52,8 @@ const JoinNewsletter = ({ addMargin = false }) => {
                                         <input
                                             type="email"
                                             name="EMAIL"
-                                            className="email join-newsletter-subscription"
-                                            id="mce-EMAIL"
+                                            className="email join-newsletter-subscription form-control"
+                                            id="EMAIL"
                                             placeholder="Enter your email address"
                                             required
                                         />

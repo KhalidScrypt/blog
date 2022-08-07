@@ -207,12 +207,12 @@
       &.instagram {
         em:before {
           content: url('../assets/instagram.svg');
-          width: 15px;
-          height: 15px;
+          width: 12px;
+          height: 12px;
+          margin-right: 3px;
         }
         &:hover {
           background: #FE62AC;
-          cursor: pointer;
         }
       }
     }

@@ -5,6 +5,14 @@ const FooterSocials = ({ data }) => (
         
         <a
             target="_blank"
+            href="https://instagram.com/tiramisuapp"
+            className="social-button instagram"
+            rel="noreferrer"
+        >
+            <em />
+        </a>
+        <a
+            target="_blank"
             href={data.youtube_url}
             className="social-button youtube"
             rel="noreferrer"

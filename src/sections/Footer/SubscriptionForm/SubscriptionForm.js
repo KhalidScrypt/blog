@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SubscriptionForm = () => {
-    const action = 'https://flotiq.us18.list-manage.com/subscribe/post?u=5f7db102d539d8f65a3639f8d&amp;id=da58181767';
+    const action = 'https://6e38f91b.sibforms.com/serve/MUIEAPUTMzpahL8TaOhaghyQ4TcNWPWP8TIy85dA6ogeGPlgaJl1h3gJbTQCn4FaBzETUFwPwmg93q-T93s5MKU-Sz4aXSeFldNWepeiVMGnMttaFDCCOTiMMJb-Q5si1JdouMqpa1vKBrFNG9B-mMQtAaP1KJTg0D6t6QXltWHHNlgUC_bEubWJma-budws8d-roVsfaNvTx7h1';
     return (
         <>
             <li>
@@ -43,7 +43,7 @@ const SubscriptionForm = () => {
                 </div>
             </li>
             <li className="main-footer-item--opacity text-s">
-                Join our newsletter to stay up to date on features and releases
+                Join our newsletter to stay up to date on features and events
             </li>
         </>
     );

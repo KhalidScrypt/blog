@@ -204,15 +204,15 @@
           background: #0077B5;
         }
       }
-      &.reddit {
+      &.instagram {
         em:before {
-          content: url('../assets/reddit.svg');
+          content: url('../assets/instagram.svg');
           width: 15px;
           height: 15px;
           line-height: 15px;
         }
         &:hover {
-          background: #ff4500;
+          background: #FE62AC;
           cursor: pointer;
         }
       }

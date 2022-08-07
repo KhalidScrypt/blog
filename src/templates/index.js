@@ -41,6 +41,7 @@ const IndexPage = ({ data, pageContext }) => {
                         href={`${siteMeta.siteUrl}${siteMeta.pathPrefix}/${pageContext.currentPage + 1}`}
                     />
                 )}
+                <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css"/>
                 <meta property="og:site_name" content={data.allFlotiqMainSettings.nodes[0].title} />
                 <meta property="og:type" content="website" />
                 <meta
@@ -112,7 +113,21 @@ const IndexPage = ({ data, pageContext }) => {
                 )}
                 <Pagination page={pageContext.currentPage} numOfPages={pageContext.numPages} />
             </Container>
+<script>
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+  window.LOCALE = 'en';
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+  window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+
+  window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+
+  var AUTOHIDE = Boolean(0);
+</script>
+<script src="https://sibforms.com/forms/end-form/build/main.js"></script>
         </Layout>
+        
     );
 };
 
